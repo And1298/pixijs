@@ -1,8 +1,13 @@
+import { TiledMap } from 'pixi-tiledmap';
 // Inizializza PixiJS
 const app = new PIXI.Application({
   resizeTo: window,
   backgroundColor: 0xaaaaaa,
 });
+//inizializzazione TMX
+// const PIXI = require('pixi.js');
+// const PixiTiledMap = require('pixi-tiledmap');
+
 
 // Aggiungi il renderer al DOM
 document.body.appendChild(app.view);
